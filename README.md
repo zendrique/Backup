@@ -27,14 +27,15 @@ backup_time=""
 
 To install the script perform the following commands
 ```
+cd /opt
 git clone https://github.com/zendrique/Backup
-cd backup
+cd Backup
 sudo bash backup.sh --install
 ```
 
 Once done, open crontap (crontab -e) and enter the following line :
 ```
-00 3 * * * bash /opt/backup/backup.sh
+00 3 * * * bash /opt/Backup/backup.sh
 ```
 
 ## Warning
