@@ -17,11 +17,28 @@ backup_folder=""
 ```
 backup_folder_name=""
 ```
-- This variable defines the name of the folder that must be saved
+- This variable defines the name of the folder or file that must be backuped
 ```
 backup_time=""
 ```
-- This variable defined the number of days that must be kept backup
+- Cette variable définit le nombre de jours que doit conserver la sauvegarde
+
+# Boot options
+
+It is possible to pass the values ​​of the variables directly at the start of the program
+
+The first variable corresponds to ```backup_data```
+
+The second variable corresponds to ```backup_folder```
+
+The third variable corresponds to ```backup_folder_name```
+
+The fourth variable corresponds to ```backup_time```
+
+## Example start line
+```
+bash /opt/Backup/backup.sh "/home/backup" "/var/www/" html 7
+```
 
 # Setup
 

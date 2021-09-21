@@ -9,6 +9,13 @@ backup_time=""
 # Recovery of the date
 date=`date "+%Y-%m-%d"`
 
+# If the variables are passed at startup
+backup_data=$1
+backup_folder=$2
+backup_folder_name=$3
+backup_time=$4
+
+
 function installation {
     clear
     echo "[INFO] Installation of dependencies..."
